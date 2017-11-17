@@ -1,0 +1,128 @@
+body {
+overflow: hidden;
+background: url(img2.jpg);
+
+}
+.box {
+  position: relative;
+  left: 4rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 8rem;
+  padding-left: 3rem;
+  text-shadow: 2px 2px 4px white;
+}
+
+.subtitle {
+  position: relative;
+  left: .8rem;
+  font-size: 1.65rem;
+  padding-left: 3rem;
+}
+
+.items {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.item {
+  padding-left: 8rem;
+  margin-top: 3rem;
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px black;
+  font-size: 1.7rem;
+}
+
+.item:hover {
+  color: black;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0rem;
+  right: 0rem;
+  left: 0rem;
+  font-size: 1rem;
+  margin-top: 6rem;
+  margin-left: 5rem;
+}
+
+.box {
+  height: 50rem;
+  width: 30rem;
+}
+
+.rectangle {
+  position: relative;
+  left: 6.5rem;
+  bottom: 33.5rem;
+  height: 30rem;
+  width: 15rem;
+  background-color: hsla(300, 100%, 100%, 0.3);
+  z-index: -1;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: rgb(239,255,122);
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: .3rem;
+  border-left-width: .3rem;
+}
+
+.content {
+  overflow: scroll;
+  position: relative;
+  left: 40rem;
+  bottom: 63.7rem;
+  height: 30rem;
+  width: 40rem;
+  background-color: hsla(360, 100%, 100%, 0.4);
+  padding: .5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}
+
+.subtitle {
+  font-family: 'De Valencia';
+}
+
+.span {
+  vertical-align: super;
+}
+
+.goalsHead {
+  border-style: none;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.day {
+  text-decoration: underline;
+}
+
+.day, p {
+  font-family: 'Rajdhani';
+  font-size: 1.1rem;
+  line-height: 120%;
+  margin-top: 1rem;
+}
+
+.me {
+  height: 50%;
+  width: 35%;
+}
